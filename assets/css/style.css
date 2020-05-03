@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------------------Special paddings/margins/text*/
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*--------------------------------------------Header*/
+
+header {
+    height: 130px;
+    background-color: #eaeaea;
+    font-family: "Montserrat", sans-serif;
+    color: #001f3f;
+    cursor: default;
+}
+
+#name-logo {
+    margin: 0;
+    padding: 20px 0 0 40px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    float: none;
+}
+
+/*--------------------------------------------Navigation Menu*/
+
+#nav-bar {
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
+#nav-bar li {
+    float: right;
+    margin-right: 16px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#nav-bar a:hover {
+    text-decoration: underline;
+}
