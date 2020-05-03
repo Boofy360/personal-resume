@@ -51,3 +51,71 @@ header {
 #nav-bar a:hover {
     text-decoration: underline;
 }
+
+/*--------------------------------------------Footer*/
+
+footer {
+    height: 130px;
+    background-color: #eaeaea;
+    font-family: "Montserrat", sans-serif;
+    color: #001f3f;
+    cursor: default;
+}
+
+#social {
+    float: left;
+    margin-left: 10%;
+    text-align: center
+}
+
+#social h3 {
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+#social-icons {
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+#social-icons li {
+    display: inline;
+    margin-right: 60px;
+}
+
+#social-icons li a {
+    color: #4e4e4e;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#social-icons li a:hover {
+    color: #c0c0c0;
+}
+
+#cv-download {
+    float: right;
+    margin-right: 10%;
+    text-align: center;
+}
+
+#cv-download h3 {
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+#cv-download a {
+    font-size: 1.5em;
+    color: #4e4e4e;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#cv-download a:hover {
+    color: #c0c0c0;
+}
