@@ -107,6 +107,94 @@ header {
     padding: 0 30px;
     color: #4e4e4e;
 }
+/*--------------------------------------------Experience*/
+
+#experience {
+    height: 750px;
+    border-top: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+    background-color: #eaeaea;
+    cursor: default;
+}
+
+#experience h2 {
+    padding-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+/*--------------------------------------------Timeline*/
+
+#timeline-section {
+    float: left;
+    width: 33%;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+}
+
+#timeline-section h3 {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 2em;
+    color: #4e4e4e;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+/*---Timeline tutorial https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/a3bcedac97ea4678953a75f07ffd6931/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%40a3bcedac97ea4678953a75f07ffd6931*/
+
+.timeline-item {
+    padding: 3em 0em 0em 1em;
+    margin-left: 1em;
+    position: relative;
+    color: #4e4e4e;
+    border-left: 1px solid #4e4e4e;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item i {
+    cursor: pointer;
+    font-size: 1em;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.timeline-item i:hover {
+    transform: scale(1.5);
+}
+
+.timeline-item:before {
+    content:attr(data-dates);
+    position: absolute;
+    left: 1.5em;
+    top: 3em;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #4e4e4e;
+}
 
 /*--------------------------------------------Footer*/
 
