@@ -52,6 +52,62 @@ header {
     text-decoration: underline;
 }
 
+/*--------------------------------------------About Me*/
+
+#about-me {
+    height: 700px;
+    background-color: #eaeaea;
+    color: #001f3f;
+    border-top: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+    cursor: default;
+}
+
+#about-me h2 {
+    padding-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+#left-about {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+#circle-container {
+    margin-top: 1em;
+    margin-left: 20em;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 360px;
+    width: 360px;
+}
+
+#circle-container img {
+    border-radius: 50%;
+    box-shadow: 32px 32px 32px #9c9c9c;
+    
+}
+
+#right-about {
+    width: 50%;
+    float: right;
+    margin-right: 6em;
+    text-align: center;
+    margin-top: 1em;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+}
+
+#right-about p {
+    padding: 0 30px;
+    color: #4e4e4e;
+}
+
 /*--------------------------------------------Footer*/
 
 footer {
